@@ -1,0 +1,10 @@
+#!/usr/bin/expect -f
+set passwd 111111
+set n [lrange $argv 0 0]
+spawn ssh 10.10.97.15$n -l root "mkdir -p /root/.ssh"
+match_max 100000
+expect {
+#"*yes/no*" {send "yes\r"; exp_continue}
+    "*password:" {send "$passwd\r"; exp_continue}
+}
+exit

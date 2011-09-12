@@ -1,0 +1,3 @@
+HOST=10.10.97.11
+N=1
+echo $HOST$N
