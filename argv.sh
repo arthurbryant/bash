@@ -20,3 +20,4 @@ do
     echo $p;
 done;
 echo $?
+echo $$
