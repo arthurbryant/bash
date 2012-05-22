@@ -15,4 +15,3 @@ done
 echo $@
 echo $#
 echo $$
-

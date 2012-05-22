@@ -1,0 +1,10 @@
+#!/bin/bash
+for i in 1 2 3 4 
+do 
+         if [ $i % 2 == 0 ]
+    then
+                                echo "even"
+                                     else
+                                                   echo "odd"
+                                                        fi
+                                                    done

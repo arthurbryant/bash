@@ -1,0 +1,20 @@
+How to deploy Hadoop automaticlly?
+
+Solution One:
+    -deploy.sh: deploy Hadoop on one VM
+    -ssh-config.sh: configure ssh
+    -sync.sh: sync the sets to each VMs        
+    -clear.sh: clear the mess of wrong operation
+Solution Two:
+    Only store one copy of conf and use NFS to share
+------------------------------------------------------------
+
+Deploy hadoop automaticly.
+
+1.  Install
+    1.1 Java
+        Set java environment
+    1.2 ssh
+    1.3 Hadoop
+
+2.  Configuration
