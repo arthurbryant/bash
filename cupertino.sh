@@ -1,3 +1,5 @@
 #!/bin/sh
 
-$a = $(`cat ~/Desktop/all.csv`)
+for x in $(cat Multiple-Upload-Samples/multiple-device-upload-ios.txt); do
+    echo $x
+done
