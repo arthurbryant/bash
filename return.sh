@@ -1,2 +1,4 @@
 #!/bin/bash
-return 3;
+cd /Users/feng.zhang/home/deploygate-app/deploygate;
+git fetch --tags
+git describe --tags `git rev-list --tags --max-count=1`
