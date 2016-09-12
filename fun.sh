@@ -1,2 +1,2 @@
 #!/bin/bash
-fun () { echo "$#";  echo $@; }
+fun () { echo "$#";  echo $@;  exit 2}
