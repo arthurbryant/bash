@@ -1,0 +1,2 @@
+FENG_PATH="~/ase/"
+export PATH="$PATH:$FENG_PATH"
