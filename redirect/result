@@ -1,2 +1,0 @@
-start rm.sh
-rm: ./temp/*: No such file or directory

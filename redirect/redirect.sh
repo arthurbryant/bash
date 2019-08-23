@@ -1,3 +1,3 @@
 #!/bin/sh
 
-./rm.sh &> result
+ls - >> ./logs/out.log 2>&1
