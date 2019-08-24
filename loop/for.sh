@@ -1,5 +1,6 @@
-#!/bin/bash
-for myfile in /etc/r* 
+#!/usr/bin/env bash
+
+for myfile in /etc/r*
 do
     if [ -d $myfile ]
     then
@@ -8,10 +9,3 @@ do
         echo $myfile
     fi
 done
-for my in $@
-do
-    echo $my
-done
-echo $@
-echo $#
-echo $$
