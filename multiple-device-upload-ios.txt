@@ -1,3 +1,0 @@
-Device ID	Device Name
-a1727ec6d871ecab82e6672b8992760969c739d2	oogatta
-a1727ec6d871ecab82e6672b8992760969c739de	feng_zhang
